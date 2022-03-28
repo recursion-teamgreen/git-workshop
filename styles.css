@@ -1,8 +1,16 @@
+html,body{height: 100%;}
+
+.footer{
+    position: sticky;
+    top: 100vh;
+    background-color: antiquewhite;
+}
 
 .img-recursion{
     width: 100px;
     height: 100px;
 }
+
 
 .img-coffee img {
     width: 100px;
