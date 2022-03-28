@@ -4,6 +4,13 @@
     height: 100px;
 }
 
-.vh-25{
-    height: 25vh;
-}
+.img-box img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    
+  }
+
+  .center-bottom{
+      object-position: 50%,100%;
+  }
