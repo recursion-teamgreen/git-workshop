@@ -9,5 +9,9 @@
     height: 100px;
     object-fit: scale-down;
     
-  }
+}
+
+.font-hurricane{
+    font-family: 'Hurricane', cursive;
+}
 
