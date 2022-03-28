@@ -3,3 +3,19 @@
     width: 100px;
     height: 100px;
 }
+
+.img-coffee img {
+    width: 100px;
+    height: 100px;
+    object-fit: scale-down;
+    
+}
+
+.font-hurricane{
+    font-family: 'Hurricane', cursive;
+}
+
+.font-inspiration{
+    font-family: 'Inspiration', cursive;
+}
+
