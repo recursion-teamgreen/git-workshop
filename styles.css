@@ -12,12 +12,12 @@ html,body{height: 100%;}
 }
 
 
-.img-coffee img {
-    width: 100px;
-    height: 100px;
-    object-fit: scale-down;
-    
+.img-coffee {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;  
 }
+
 
 .font-hurricane{
     font-family: 'Hurricane', cursive;
