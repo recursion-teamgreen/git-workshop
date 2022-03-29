@@ -1,5 +1,9 @@
 html,body{height: 100%;}
 
+a{
+    text-decoration: none;
+}
+
 .footer{
     position: sticky;
     top: 100vh;
@@ -26,4 +30,3 @@ html,body{height: 100%;}
 .font-inspiration{
     font-family: 'Inspiration', cursive;
 }
-
