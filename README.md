@@ -5,7 +5,7 @@
 ### タイプ
 * fix バグ修正
 * add 新規機能・新規ファイル追加
-* feat featture
+* feat feature(addと同義）
 * update バグではない機能の修正
 * change 仕様変更による機能修正
 * clean,refactor,improve 整理（リファクタリング）
