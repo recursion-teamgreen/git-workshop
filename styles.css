@@ -30,7 +30,29 @@ a{
 .font-inspiration{
     font-family: 'Inspiration', cursive;
 }
-
+.box-border {
+    position: relative;
+    padding:0.25em 1em;
+}
+.box-border:before,.box-border:after{ 
+    content:'';
+    width: 20px;
+    height: 30px;
+    position: absolute;
+    display: inline-block;
+}
+.box-border:before{
+    border-left: solid 1px #5767bf;
+    border-top: solid 1px #5767bf;
+    top:0;
+    left: 0;
+}
+.box-border:after{
+    border-right: solid 1px #5767bf;
+    border-bottom: solid 1px #5767bf;
+    bottom:0;
+    right: 0;
+}
 /* ボタンの表示設定 */
 #scroll-to-top-btn{
   z-index: 100;
