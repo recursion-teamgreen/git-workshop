@@ -138,3 +138,9 @@ a{
     opacity: 0;
     transition-duration: 0.5s;
 }
+
+/*bg-color*/
+
+.bg-body{
+    background-color: antiquewhite;
+}
