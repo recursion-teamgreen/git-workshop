@@ -46,5 +46,6 @@ a{
   border-radius: 50%;
   outline: none;
   transform: rotate(-90deg);
+  opacity: 0;
   transition-duration: 0.5s;
 }
