@@ -4,6 +4,7 @@
 html,body{
     height: 100%;
     font-family: 'Noto Sans JP', sans-serif;
+    color: #4C4C4C;
 }
 
 a{
@@ -13,7 +14,6 @@ a{
 .footer{
     position: sticky;
     top: 100vh;
-    background-color: antiquewhite;
 }
 
 .img-recursion{
@@ -146,11 +146,6 @@ a{
     transition-duration: 0.5s;
 }
 
-/*bg-color*/
-
-.bg-body{
-    background-color: antiquewhite;
-}
 .tx-inline{
     display: inline;
 }
