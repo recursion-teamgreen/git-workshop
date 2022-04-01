@@ -18,7 +18,7 @@
 <body>
   <div>
     <img class="img-recursion rounded mx-auto d-block" src="images/recursion-logo.png" alt="logo">
-    <h1 class="text-center display-4 font-inspiration mb-3 fw-bold">Cafe Recursion</h1>
+    <h1 class="text-center display-4 font-garamond mb-3 fw-bold">Cafe Recursion</h1>
   </div>
 
   <nav class="navbar sticky-top navbar-expand-md navbar-light bg-light ">
@@ -29,11 +29,11 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <div class=" navbar-nav">
-        <a class="nav-item nav-link font-inspiration" href="#">Home</a>
-        <a class="nav-item nav-link font-inspiration" href="#">Drink</a>
-        <a class="nav-item nav-link font-inspiration" href="#">Food</a>
-        <a class="nav-item nav-link font-inspiration" href="#">Sweets</a>
-        <a class="nav-item nav-link font-inspiration" href="#">Information</a>
+        <a class="nav-item nav-link font-garamond" href="#">Home</a>
+        <a class="nav-item nav-link font-garamond" href="#drink">Drink</a>
+        <a class="nav-item nav-link font-garamond" href="#food">Food</a>
+        <a class="nav-item nav-link font-garamond" href="#sweets">Sweets</a>
+        <a class="nav-item nav-link font-garamond" href="#news">News</a>
       </div>
       <form class="d-flex ms-auto p-2 bd-highlight">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -78,7 +78,7 @@
 
   <div class="container intro-contents ">
     <div class="d-flex justify-content-center">
-      <h1 class="font-inspiration">〜Welcome to Cafe Recursion〜</h1>
+      <h1 class="font-garamond">〜Welcome to Cafe Recursion〜</h1>
     </div>
     <div class="d-flex justify-content-center box-border mb-3">
       <div class="fs-5">
@@ -88,7 +88,7 @@
   </div>
 
   <div class="d-flex justify-content-center">
-    <h1 class="font-inspiration">New Topics</h1>
+    <h1 class="font-garamond">New Topics</h1>
   </div>
 
   <div class="container d-flex justify-content-center">
@@ -98,7 +98,7 @@
         <div class="row">
           <div class="col-md-6">
             <div class="card-body">
-              <h4 class="card-title font-hurricane">What's new?</h4>
+              <h4 class="card-title font-garamond">What's new?</h4>
               <h5 class="card-text py-4 weight700">ストロベリーフルーリ</h5>
               <p class="card-text pt-6">福岡県産あまおうをふんだんに使用したフルーリーです。ストロベリーの芳醇な味わいとバニラの甘みが合わさることで、コク深さの中にもフルーティな風味を楽しめる味わいです。</p>
             </div>
@@ -113,7 +113,7 @@
         <div class="row">
           <div class="col-md-6">
             <div class="card-body">
-              <h4 class="card-title font-hurricane">Coffee of the Day</h4>
+              <h4 class="card-title font-garamond">Coffee of the Day</h4>
               <h5 class="card-text py-4 weight700">エチオピアモカ ウラガナチュラル</h5>
               <p class="pt-6">ラズベリーやピーチのような爽やかさがあり、すっきりとした飲み口とともに、ユニークな風味とフルーティ感が楽しめる味わいです。</p>
             </div>
@@ -127,8 +127,8 @@
   </div>
 
   <!-- ドリンクエリア -->
-  <div class="drink-bg">
-    <h1 class="fs-4 text-center font-inspiration">drink</h1>
+  <div>
+    <h1 class="fs-4 text-center font-garamond" id="drink">drink</h1>
     <div class="container">
       <div class="row">
         <div class="box col-md-8">
@@ -147,7 +147,7 @@
 
   <!--foods-->
   <div class="d-flex justify-content-center">
-    <h1 class="font-inspiration">Foods</h1>
+    <h1 class="font-garamond" id="food">Foods</h1>
   </div>
   <div class="justify-content-space-around  container">
     <div class="row">
@@ -179,7 +179,34 @@
 
   </div>
 
-  
+
+  <!-- News -->
+  <div class="container">
+    <div>
+      <h1 id="news" class="text-center font-garamond">News</h1>
+    <ul>
+      <li class="news_list">
+        <p class="tx-inline">20xx.03.15</p>
+        <h2 class="fs-6">新商品「ストロベリーフルーリ」の販売を開始しました!</h2>
+      </li>
+      <li class="news_list">
+        <p class="tx-inline">20xx.04.16</p>
+        <h2 class="fs-6">「Cafe Magazine」5月号に掲載されました!</h2>
+      </li>
+      <li class="news_list">
+        <p class="tx-inline">20xx.08.01</p>
+        <h2 class="fs-6">Cafe RecursionのTwitterを開設しました!</h2>
+      </li>
+      <li class="news_list border_bottom">
+        <p class="tx-inline">20xx.12.25</p>
+        <h2 class="fs-6">クリスマスイベントを開催しました!</h2>
+      </li>
+    </ul>
+    </div>
+    
+    
+
+  </div>
 
 
   <button id="scroll-to-top-btn">≫</button> 
@@ -190,7 +217,7 @@
             <img class="img-fluid" src="/images/recursion-footer.png" alt="logo">
           </div>
           <div class="d-flex flex-column justify-content-center text-center col-md-4 order-md-1">
-            <div class="fs-4 m-1 font-hurricane">KEEP IN TOUCH</div>
+            <div class="fs-4 m-1 font-garamond">KEEP IN TOUCH</div>
             <div class="justify-content-around">
               <a href="https://www.facebook.com/">
                 <svg class="m-3" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#6cf" class="bi bi-facebook"
