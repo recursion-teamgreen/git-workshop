@@ -25,6 +25,11 @@ a{
     height: 100%;
     object-fit: cover;  
 }
+
+.img-foods{
+    width: 25%;
+    height: auto;
+}
 .img-catch{
     height: 50%;
     width: auto;
