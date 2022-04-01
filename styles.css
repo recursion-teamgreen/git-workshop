@@ -149,3 +149,16 @@ a{
 .bg-body{
     background-color: antiquewhite;
 }
+.tx-inline{
+    display: inline;
+}
+ul{
+    list-style: none;
+}
+.news_list{
+    border-top: 0.8px solid ;
+    line-height: 50px;
+}
+.border_bottom{
+    border-bottom: 0.8px solid;
+}
