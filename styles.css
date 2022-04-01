@@ -1,7 +1,7 @@
 html,body{
     height: 100%;
-    background-image: radial-gradient(circle, #f4eaea, #ffe1dc, #ffdbc7, #ffd7af, #ffd697);
     font-family: 'Noto Sans JP', sans-serif;
+    color: #4C4C4C;
 }
 
 a{
@@ -142,11 +142,6 @@ a{
     transition-duration: 0.5s;
 }
 
-/*bg-color*/
-
-.bg-body{
-    background-color: antiquewhite;
-}
 .tx-inline{
     display: inline;
 }
