@@ -32,7 +32,7 @@ a{
     height: auto;
 }
 .img-catch{
-    height: 50%;
+    height: 70%;
     width: auto;
     object-fit: cover;
 }
@@ -77,31 +77,30 @@ a{
 .absolute0{
     position: absolute;
     z-index: 100;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 
 }
 
 .absolute1{
     position: absolute;
-    transform: rotate(30deg);
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
+    transform: translate(-50%,-50%) rotate(30deg);
+    top: 50%;
+    left: 50%;
 }
 .absolute2{
     position: absolute;
-    transform: rotate(-20deg);
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
+    transform: translate(-50%,-50%) rotate(-20deg);
+    top: 50%;
+    left: 50%;
+}
+
+.drink-detail{
+    width: 100%;
+    aspect-ratio: 3/4;
+    object-fit: cover;
+
 }
 
 .box-border {
