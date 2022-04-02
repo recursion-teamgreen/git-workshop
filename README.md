@@ -1,22 +1,25 @@
 # git-workshop
-課題用リポジトリ
 
-# issueのルール
-### タイプ
-* fix バグ修正
-* add 新規機能・新規ファイル追加
-* feat feature(addと同義）
-* update バグではない機能の修正
-* change 仕様変更による機能修正
-* clean,refactor,improve 整理（リファクタリング）
-* disable 無効化
-* remove,delete ファイル削除、コードの一部を取り除く
-* rename ファイル名の変更
-* move ファイル移動
-* upgrade バージョンアップ
-* revert 修正取り消し
-* docs ドキュメントのみ修正
-* style 空白、セミコロン、行、コーディングフォーマットの修正
-* perf 性能向上する修正
-* test テスト追加
-* chore ビルドツールやライブラリで自動生成されたものをコミット
+Recursionの初心者チーム開発の課題
+
+架空の喫茶店「Cafe Recursion」のWebサイトを作成した。
+
+https://recursion-teamgreen.github.io/git-workshop/
+
+# Features
+
+- 画像のスライダー機能
+- ナビバーの各セクション（Drink/Food/Sweets/News）を押すとその場所へ移動する機能
+- 「先頭に戻るボタン」の実装（画面右下）
+- 画像を重ねて躍動感を表現（Rec Coffee）
+
+# Requirement
+
+* HTML
+* CSS
+* Bootstrap 5.1.3
+* JavaScript
+
+# Note
+
+サイトへのアクセス時、画像が表示されない場合はリロードしてください。
