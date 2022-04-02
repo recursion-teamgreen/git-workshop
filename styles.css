@@ -4,11 +4,9 @@
 html,body{
     font-family: 'Noto Sans JP', sans-serif;
     color: #4C4C4C;
-}
-
-body{
     overflow-x: hidden!important;
 }
+
 
 a{
     text-decoration: none;
