@@ -2,9 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=EB+Garamond:wght@600&display=swap');
 
 html,body{
-    height: 100%;
     font-family: 'Noto Sans JP', sans-serif;
     color: #4C4C4C;
+}
+
+body{
+    overflow-x: hidden!important;
 }
 
 a{
@@ -130,8 +133,8 @@ a{
 #scroll-to-top-btn{
     z-index: 100;
     position: fixed;
-    bottom: 30px;
-    right: 60px;
+    bottom: 20px;
+    right: 20px;
     height: 50px;
     width: 50px;
     color: #FFF;
